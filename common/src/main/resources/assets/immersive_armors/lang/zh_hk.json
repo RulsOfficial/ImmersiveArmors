@@ -1,6 +1,6 @@
 {
   "itemGroup.immersive_armors.immersive_armors_tab": "Immersive Armors",
-  "armorEffect.fireResistance": "%d%% Fire Resistance",
+  "armorEffect.fireResistance": "%d%% 抗火",
   "armorEffect.explosionResistance": "%d%% Explosion Resistance",
   "armorEffect.magicResistance": "%d%% Magic Resistance",
   "armorEffect.fireInflicting": "%d Ticks Fire Damage",
