@@ -8,11 +8,4 @@ Hosted on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/immersive-ar
 
 Check out the config documentation [here](https://github.com/Luke100000/ImmersiveArmors/blob/HEAD/config.md).
 
-Fork Features
-- Nerfed Slime Armor
-- Nerfed Prismarine Armor
-- Nerfed Divine Armor
-- Nerfed Heavy Armor
-- Nerfed Steampunk Helmet
-
-This fork was made for a server im making (Nonprofit).
+This fork was made for a server im making (Nonprofit), in this fork i have nerfed most of the armor, modified and changed their crafting so that the mod is more balanced with the vanilla game.
