@@ -27,7 +27,6 @@ public interface Items {
     Map<String, Map<Supplier<Item>, Float>> lootLookup = new HashMap<>();
 
     ExtendedArmorMaterial BONE_ARMOR = registerSet(new ExtendedArmorMaterial("bone")
-            .addLoot("minecraft:chests/village/village_weaponsmith", 1.0f)
             .addLoot("minecraft:chests/jungle_temple", 1.0f)
             .durabilityMultiplier(8)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.BONE))
@@ -38,8 +37,6 @@ public interface Items {
             .weight(-0.02f));
 
     ExtendedArmorMaterial WITHER_ARMOR = registerSet(new ExtendedArmorMaterial("wither")
-            .addLoot("minecraft:chests/jungle_temple", 0.5f)
-            .addLoot("minecraft:chests/ruined_portal", 1.0f)
             .addLoot("minecraft:chests/bastion_other", 1.0f)
             .durabilityMultiplier(12)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.BONE))
@@ -54,7 +51,7 @@ public interface Items {
     ExtendedArmorMaterial WARRIOR_ARMOR = registerSet(new ExtendedArmorMaterial("warrior")
             .addLoot("minecraft:chests/village/village_armorer", 1.0f)
             .addLoot("minecraft:chests/shipwreck_supply", 1.0f)
-            .protectionAmount(2, 5, 6, 2)
+            .protectionAmount(2, 5, 5, 2)
             .durabilityMultiplier(15)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.IRON_INGOT))
             .toughness(1.0f)
@@ -65,7 +62,6 @@ public interface Items {
             .equipSound(SoundEvents.ITEM_ARMOR_EQUIP_IRON));
 
     ExtendedArmorMaterial HEAVY_ARMOR = registerSet(new ExtendedArmorMaterial("heavy")
-            .addLoot("minecraft:chests/village/village_armorer", 1.0f)
             .addLoot("minecraft:chests/stronghold_crossing", 1.0f)
             .protectionAmount(4, 6, 5, 3)
             .durabilityMultiplier(20)
@@ -92,7 +88,7 @@ public interface Items {
 
     ExtendedArmorMaterial SLIME_ARMOR = registerSet(new ExtendedArmorMaterial("slime")
             .addLoot("minecraft:chests/simple_dungeon", 0.25f)
-            .protectionAmount(3, 5, 4, 2)
+            .protectionAmount(2, 2, 2, 2)
             .enchantability(10)
             .durabilityMultiplier(20)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.SLIME_BALL))
@@ -107,7 +103,7 @@ public interface Items {
             .addLoot("minecraft:chests/woodland_mansion", 0.25f)
             .addLoot("minecraft:chests/desert_pyramid", 1.0f)
             .addLoot("minecraft:blocks/coal_block", 0.1f)
-            .protectionAmount(3, 7, 5, 3)
+            .protectionAmount(3, 5, 5, 3)
             .durabilityMultiplier(18)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.GOLD_INGOT))
             .enchantability(30)
@@ -119,7 +115,7 @@ public interface Items {
     ExtendedArmorMaterial PRISMARINE_ARMOR = registerSet(new ExtendedArmorMaterial("prismarine")
             .addLoot("minecraft:chests/underwater_ruin_big", 1.0f)
             .addLoot("minecraft:chests/underwater_ruin_small", 0.5f)
-            .protectionAmount(3, 8, 6, 3)
+            .protectionAmount(3, 6, 6, 3)
             .enchantability(8)
             .durabilityMultiplier(18)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.PRISMARINE_CRYSTALS))
@@ -141,7 +137,7 @@ public interface Items {
     ExtendedArmorMaterial STEAMPUNK_ARMOR = registerSet(new ExtendedArmorMaterial("steampunk")
             .addLoot("minecraft:chests/village/village_toolsmith", 0.25f)
             .addLoot("minecraft:chests/shipwreck_treasure", 1.0f)
-            .protectionAmount(3, 6, 3, 2)
+            .protectionAmount(1, 6, 3, 2)
             .durabilityMultiplier(10)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.GOLD_INGOT))
             .enchantability(4)
