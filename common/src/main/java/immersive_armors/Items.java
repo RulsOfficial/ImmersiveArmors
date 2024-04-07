@@ -37,7 +37,6 @@ public interface Items {
             .weight(-0.02f));
 
     ExtendedArmorMaterial WITHER_ARMOR = registerSet(new ExtendedArmorMaterial("wither")
-            .addLoot("minecraft:chests/bastion_other", 1.0f)
             .durabilityMultiplier(12)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.BONE))
             .protectionAmount(2, 4, 3, 2)
