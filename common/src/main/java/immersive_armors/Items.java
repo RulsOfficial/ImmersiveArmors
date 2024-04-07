@@ -51,7 +51,7 @@ public interface Items {
     ExtendedArmorMaterial WARRIOR_ARMOR = registerSet(new ExtendedArmorMaterial("warrior")
             .addLoot("minecraft:chests/village/village_armorer", 1.0f)
             .addLoot("minecraft:chests/shipwreck_supply", 1.0f)
-            .protectionAmount(2, 5, 5, 2)
+            .protectionAmount(2, 5, 6, 2)
             .durabilityMultiplier(15)
             .repairIngredient(() -> Ingredient.ofItems(net.minecraft.item.Items.IRON_INGOT))
             .toughness(1.0f)
